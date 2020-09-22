@@ -20,6 +20,6 @@ async def ping(ctx):
    
 @bot.command()
 async def ping(ctx):
-    await ctx.send('Ping == {0}'.format(bot.latency,1))   
+    await ctx.send('Ping == {0}'.format(bot.latency))   
 
 bot.run(token)
